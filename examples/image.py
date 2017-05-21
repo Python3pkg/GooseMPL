@@ -17,8 +17,8 @@ cbar = fig.colorbar(cax,aspect=10)
 cbar.set_ticks([0,np.sqrt(2.)])
 cbar.set_ticklabels(['0',r'$\sqrt{2}$'])  # vertically oriented colorbar
 
-ax.xaxis.set_ticks(range(0,101,20))
-ax.yaxis.set_ticks(range(0,101,20))
+ax.xaxis.set_ticks(list(range(0,101,20)))
+ax.yaxis.set_ticks(list(range(0,101,20)))
 
 plt.xlim([0,100])
 plt.ylim([0,100])
@@ -42,8 +42,8 @@ cbar = fig.colorbar(cax,aspect=10)
 cbar.set_ticks([0,np.sqrt(2.)])
 cbar.set_ticklabels(['0',r'$\sqrt{2}$'])  # vertically oriented colorbar
 
-ax.xaxis.set_ticks(range(0,101,20))
-ax.yaxis.set_ticks(range(0,101,20))
+ax.xaxis.set_ticks(list(range(0,101,20)))
+ax.yaxis.set_ticks(list(range(0,101,20)))
 
 plt.xlim([0,100])
 plt.ylim([0,100])
@@ -67,8 +67,8 @@ cbar = fig.colorbar(cax,aspect=10)
 cbar.set_ticks([0,np.sqrt(2.)])
 cbar.set_ticklabels(['0',r'$\sqrt{2}$'])  # vertically oriented colorbar
 
-ax.xaxis.set_ticks(range(0,101,20))
-ax.yaxis.set_ticks(range(0,101,20))
+ax.xaxis.set_ticks(list(range(0,101,20)))
+ax.yaxis.set_ticks(list(range(0,101,20)))
 
 plt.xlim([0,100])
 plt.ylim([0,100])

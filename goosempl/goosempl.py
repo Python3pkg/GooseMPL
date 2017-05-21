@@ -115,7 +115,7 @@ Plot cumulative probability density.
 
   # plot as bars
   if mode in ['bars','bar','b']:
-    for i,(x0,dx,dy) in enumerate(zip(bin_edges[:-1],bin_edges[1:]-bin_edges[:-1],data)):
+    for i,(x0,dx,dy) in enumerate(list(zip(bin_edges[:-1],bin_edges[1:]-bin_edges[:-1],data))):
       plt.gca().add_patch(mpl.patches.Rectangle((x0,0),dx,dy,**kwargs))
 
   return None
